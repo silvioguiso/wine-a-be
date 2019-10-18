@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="winery_grid_spacing">16dp</dimen>
+    <dimen name="list_small_padding">2dp</dimen>
+    <dimen name="list_big_padding">8dp</dimen>
+</resources>

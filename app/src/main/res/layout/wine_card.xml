@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@android:color/background_light"
+    app:cardElevation="2dp"
+    app:cardPreventCornerOverlap="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_wineryName"
+            android:layout_width="254dp"
+            android:layout_height="wrap_content"
+            android:text="@string/winery_name"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:paddingLeft="@dimen/list_big_padding"
+            android:paddingTop="@dimen/list_big_padding"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/text_wineryMilesAway" />
+
+        <TextView
+            android:id="@+id/text_wineryMilesAway"
+            android:layout_width="254dp"
+            android:layout_height="wrap_content"
+            android:text="@string/miles_away"
+            android:paddingLeft="@dimen/list_big_padding"
+            android:paddingTop="@dimen/list_big_padding"
+            android:paddingBottom="@dimen/list_big_padding"
+            android:textSize="16dp"
+            app:layout_constraintTop_toBottomOf="@id/text_wineryName"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+        <ImageView
+            android:id="@+id/image_favorite"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            app:layout_constraintLeft_toRightOf="@id/text_wineryName"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/image_visited"
+            android:src="@mipmap/favorite_check"
+            android:tint="@color/primaryLightColor"/>
+
+        <ImageView
+            android:id="@+id/image_visited"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            app:layout_constraintLeft_toRightOf="@id/image_favorite"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:src="@mipmap/visited"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

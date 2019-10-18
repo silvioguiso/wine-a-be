@@ -1,7 +1,11 @@
 <resources>
-    <string name="app_name">wineabe</string>
+    <string name="app_name">Wine-a-be</string>
     <string name="front_view">Welcome Screen.</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="memberships">Memberships</string>
+    <string name="map_view">Map View</string>
+    <string name="list_view">List View</string>
+    <string name="favorites">Show Favorites</string>
+    <string name="winery_name">Winery Name</string>
+    <string name="miles_away">x miles away</string>
 </resources>

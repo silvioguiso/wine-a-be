@@ -1,0 +1,186 @@
+[
+  {
+    "name": "Lobo Hills",
+    "lat": 47.7619893,
+    "lon": -122.15202,
+    "wines": [
+      {
+        "name": "Syrah 2015",
+        "year": 2015,
+        "grape": "Syrah",
+        "price": 40
+      },
+      {
+        "name": "SuperCab",
+        "year": 2015,
+        "grape": "Cabernet Sauvignon",
+        "price": 45
+      },
+      {
+        "name": "Awesome Chard",
+        "year": 2017,
+        "grape": "Chardonnay",
+        "price": 30
+      }
+    ],
+    "about": "This is an awesome winery with great wine.",
+    "annualReleases": 3,
+    "membershipFee": 0,
+    "freeTasting": "2 / month",
+    "memberships": [
+      {
+        "name": "Silver",
+        "averagePrice": 100,
+        "numberOfBottles": "6",
+        "discount": 10
+      },
+      {
+        "name": "Gold",
+        "averagePrice": 200,
+        "numberOfBottles": "12",
+        "discount": 15
+      },
+      {
+        "name": "Platinum",
+        "averagePrice": 400,
+        "numberOfBottles": "24",
+        "discount": 20
+      }
+    ]
+  },
+  {
+    "name": "Patterson Cellars",
+    "lat": 47.7330848,
+    "lon": -122.1425795,
+    "wines": [
+      {
+        "name": "Syrah 2016",
+        "year": 2016,
+        "grape": "Syrah",
+        "price": 39
+      },
+      {
+        "name": "Cabby Cab",
+        "year": 2015,
+        "grape": "Cabernet Sauvignon",
+        "price": 49
+      },
+      {
+        "name": "Syrah Sirah",
+        "year": 2016,
+        "grape": "Blend",
+        "price": 35
+      }
+    ],
+    "about": "Fun place to hang out.",
+    "annualReleases": 3,
+    "membershipFee": 0,
+    "freeTasting": "2 / month",
+    "memberships": [
+      {
+        "name": "Silver",
+        "averagePrice": 100,
+        "numberOfBottles": "6",
+        "discount": 10
+      },
+      {
+        "name": "Gold",
+        "averagePrice": 200,
+        "numberOfBottles": "12",
+        "discount": 15
+      },
+      {
+        "name": "Platinum",
+        "averagePrice": 450,
+        "numberOfBottles": "24",
+        "discount": 20
+      }
+    ]
+  },
+  {
+    "name": "Damsel Cellars",
+    "lat": 47.7635568,
+    "lon": -122.1515801,
+    "wines": [
+      {
+        "name": "Syrah 2016",
+        "year": 2016,
+        "grape": "Syrah",
+        "price": 40
+      },
+      {
+        "name": "Petit Verdot",
+        "year": 2015,
+        "grape": "Petit Verdot",
+        "price": 40
+      },
+      {
+        "name": "Malbec",
+        "year": 2014,
+        "grape": "Malbec",
+        "price": 40
+      }
+    ],
+    "about": "Ran exclusively by women.",
+    "annualReleases": 3,
+    "membershipFee": 0,
+    "freeTasting": "4 / month",
+    "memberships": [
+      {
+        "name": "Silver",
+        "averagePrice": 100,
+        "numberOfBottles": "6",
+        "discount": 15
+      },
+      {
+        "name": "Gold",
+        "averagePrice": 220,
+        "numberOfBottles": "12",
+        "discount": 15
+      },
+      {
+        "name": "Platinum",
+        "averagePrice": 460,
+        "numberOfBottles": "24",
+        "discount": 20
+      }
+    ]
+  },
+  {
+    "name": "Page Cellars",
+    "lat": 47.7672366,
+    "lon": -122.149709,
+    "wines": [
+      {
+        "name": "Lick my lips",
+        "year": 2015,
+        "grape": "Syrah",
+        "price": 42
+      },
+      {
+        "name": "Carbernet Franc",
+        "year": 2013,
+        "grape": "Cabernet Franc",
+        "price": 60
+      },
+      {
+        "name": "Preface",
+        "year": 2012,
+        "grape": "Cabernet Sauvignon",
+        "price": 44
+      }
+    ],
+    "about": "We love wine!",
+    "annualReleases": 3,
+    "membershipFee": 0,
+    "freeTasting": "Endless",
+    "memberships": [
+      {
+        "name": "Friends and Family",
+        "averagePrice": 180,
+        "numberOfBottles": "4",
+        "discount": 20
+      }
+    ]
+  }
+]
