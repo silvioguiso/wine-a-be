@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">wineabe</string>
+    <string name="front_view">Welcome Screen.</string>
 </resources>
