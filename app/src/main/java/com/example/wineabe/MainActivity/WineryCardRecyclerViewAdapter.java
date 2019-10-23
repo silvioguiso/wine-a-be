@@ -1,41 +1,59 @@
 package com.example.wineabe.MainActivity;
 
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
-import com.example.wineabe.Data.WineEntry;
-import com.example.wineabe.R;
 
-import java.util.List;
+import com.example.wineabe.Data.WineryData;
+import com.example.wineabe.Model.Winery;
+import com.example.wineabe.R;
+import com.example.wineabe.WineryDetailsActivity.WineryDetailsActivity;
 
 public class WineryCardRecyclerViewAdapter extends RecyclerView.Adapter<WineryCardViewHolder> {
 
-    private List<WineEntry> mWineryList;
-
-    WineryCardRecyclerViewAdapter(List<WineEntry> wineryList) {
-        this.mWineryList = wineryList;
-    }
+    private int mWinerySK;
 
     @NonNull
     @Override
     public WineryCardViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View layoutView = LayoutInflater.from(parent.getContext()).inflate(R.layout.wine_card, parent, false);
+
         return new WineryCardViewHolder(layoutView);
     }
 
     @Override
     public void onBindViewHolder(@NonNull WineryCardViewHolder holder, int position) {
-        if (mWineryList != null && position < mWineryList.size()) {
-            WineEntry wineEntry = mWineryList.get(position);
-            holder.wineryName.setText(wineEntry.name);
-            holder.wineryMilesAway.setText(wineEntry.freeTasting);
+        Winery winery = WineryData.getWineryByPosition(position);
+
+        if (winery != null) {
+            holder.wineryName.setText(winery.getName());
+            holder.wineryMilesAway.setText(winery.getMilesAway());
+
+            if(winery.isVisited()){
+                holder.visited.setVisibility(View.VISIBLE);
+            }
+
+            if(winery.isFavorited()){
+                holder.favorited.setVisibility(View.VISIBLE);
+            }
+
+            holder.card.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent intent = new Intent(holder.card.getContext(), WineryDetailsActivity.class);
+                    intent.putExtra(WineryDetailsActivity.WINERYSK, winery.getWinerySK());
+                    holder.card.getContext().startActivity(intent);
+                }
+            });
         }
     }
 
     @Override
     public int getItemCount() {
-        return mWineryList.size();
+        return WineryData.getWineryCount();
     }
+
 }

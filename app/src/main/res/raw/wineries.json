@@ -1,185 +1,201 @@
 [
   {
-    "name": "Lobo Hills",
-    "lat": 47.7619893,
-    "lon": -122.15202,
-    "wines": [
+    "mWinerySK": 1,
+    "mName": "The Drunken Grape",
+    "mLatitude": 47.7619893,
+    "mLongitude": -122.15202,
+    "mMilesAway": 6.2,
+    "mVisited": true,
+    "mFavorited": true,
+    "mWines": [
       {
-        "name": "Syrah 2015",
-        "year": 2015,
-        "grape": "Syrah",
-        "price": 40
+        "mName": "Syrah 2015",
+        "mYear": 2015,
+        "mGrape": "Syrah",
+        "mPrice": 40
       },
       {
-        "name": "SuperCab",
-        "year": 2015,
-        "grape": "Cabernet Sauvignon",
-        "price": 45
+        "mName": "SuperCab",
+        "mYear": 2015,
+        "mGrape": "Cabernet Sauvignon",
+        "mPrice": 45
       },
       {
-        "name": "Awesome Chard",
-        "year": 2017,
-        "grape": "Chardonnay",
-        "price": 30
+        "mName": "Awesome Chard",
+        "mYear": 2017,
+        "mGrape": "Chardonnay",
+        "mPrice": 30
       }
     ],
-    "about": "This is an awesome winery with great wine.",
-    "annualReleases": 3,
-    "membershipFee": 0,
-    "freeTasting": "2 / month",
-    "memberships": [
+    "mAbout": "This is an awesome winery with great wine.",
+    "mAnnualReleases": 3,
+    "mMembershipFee": 0,
+    "mFreeTastings": "2 / month",
+    "mMemberships": [
       {
-        "name": "Silver",
-        "averagePrice": 100,
-        "numberOfBottles": "6",
-        "discount": 10
+        "mName": "Silver",
+        "mAveragePrice": 100,
+        "mNumberOfBottles": "6",
+        "mDiscount": 10
       },
       {
-        "name": "Gold",
-        "averagePrice": 200,
-        "numberOfBottles": "12",
-        "discount": 15
+        "mName": "Gold",
+        "mAveragePrice": 200,
+        "mNumberOfBottles": "12",
+        "mDiscount": 15
       },
       {
-        "name": "Platinum",
-        "averagePrice": 400,
-        "numberOfBottles": "24",
-        "discount": 20
+        "mName": "Platinum",
+        "mAveragePrice": 400,
+        "mNumberOfBottles": "24",
+        "mDiscount": 20
       }
     ]
   },
   {
-    "name": "Patterson Cellars",
-    "lat": 47.7330848,
-    "lon": -122.1425795,
-    "wines": [
+    "mWinerySK": 2,
+    "mName": "Rose Hills",
+    "mLatitude": 47.7330848,
+    "mLongitude": -122.1425795,
+    "mMilesAway": 4.7,
+    "mVisited": true,
+    "mFavorited": false,
+    "mWines": [
       {
-        "name": "Syrah 2016",
-        "year": 2016,
-        "grape": "Syrah",
-        "price": 39
+        "mName": "Syrah 2016",
+        "mYear": 2016,
+        "mGrape": "Syrah",
+        "mPrice": 39
       },
       {
-        "name": "Cabby Cab",
-        "year": 2015,
-        "grape": "Cabernet Sauvignon",
-        "price": 49
+        "mName": "Cabby Cab",
+        "mYear": 2015,
+        "mGrape": "Cabernet Sauvignon",
+        "mPrice": 49
       },
       {
-        "name": "Syrah Sirah",
-        "year": 2016,
-        "grape": "Blend",
-        "price": 35
+        "mName": "Syrah Sirah",
+        "mYear": 2016,
+        "mGrape": "Blend",
+        "mPrice": 35
       }
     ],
-    "about": "Fun place to hang out.",
-    "annualReleases": 3,
-    "membershipFee": 0,
-    "freeTasting": "2 / month",
-    "memberships": [
+    "mAbout": "Fun place to hang out.",
+    "mAnnualReleases": 3,
+    "mMembershipFee": 0,
+    "mFreeTastings": "2 / month",
+    "mMemberships": [
       {
-        "name": "Silver",
-        "averagePrice": 100,
-        "numberOfBottles": "6",
-        "discount": 10
+        "mName": "Silver",
+        "mAveragePrice": 100,
+        "mNumberOfBottles": "6",
+        "mDiscount": 10
       },
       {
-        "name": "Gold",
-        "averagePrice": 200,
-        "numberOfBottles": "12",
-        "discount": 15
+        "mName": "Gold",
+        "mAveragePrice": 200,
+        "mNumberOfBottles": "12",
+        "mDiscount": 15
       },
       {
-        "name": "Platinum",
-        "averagePrice": 450,
-        "numberOfBottles": "24",
-        "discount": 20
+        "mName": "PmLatitudeinum",
+        "mAveragePrice": 450,
+        "mNumberOfBottles": "24",
+        "mDiscount": 20
       }
     ]
   },
   {
-    "name": "Damsel Cellars",
-    "lat": 47.7635568,
-    "lon": -122.1515801,
-    "wines": [
+    "mWinerySK": 3,
+    "mName": "Liquid Pleasure",
+    "mVisited": true,
+    "mFavorited": true,
+    "mLatitude": 47.7635568,
+    "mLongitude": -122.1515801,
+    "mMilesAway": 3.4,
+    "mWines": [
       {
-        "name": "Syrah 2016",
-        "year": 2016,
-        "grape": "Syrah",
-        "price": 40
+        "mName": "Syrah 2016",
+        "mYear": 2016,
+        "mGrape": "Syrah",
+        "mPrice": 40
       },
       {
-        "name": "Petit Verdot",
-        "year": 2015,
-        "grape": "Petit Verdot",
-        "price": 40
+        "mName": "Petit Verdot",
+        "mYear": 2015,
+        "mGrape": "Petit Verdot",
+        "mPrice": 40
       },
       {
-        "name": "Malbec",
-        "year": 2014,
-        "grape": "Malbec",
-        "price": 40
+        "mName": "Malbec",
+        "mYear": 2014,
+        "mGrape": "Malbec",
+        "mPrice": 40
       }
     ],
-    "about": "Ran exclusively by women.",
-    "annualReleases": 3,
-    "membershipFee": 0,
-    "freeTasting": "4 / month",
-    "memberships": [
+    "mAbout": "Ran exclusively by women.",
+    "mAnnualReleases": 3,
+    "mMembershipFee": 0,
+    "mFreeTastings": "4 / month",
+    "mMemberships": [
       {
-        "name": "Silver",
-        "averagePrice": 100,
-        "numberOfBottles": "6",
-        "discount": 15
+        "mName": "Silver",
+        "mAveragePrice": 100,
+        "mNumberOfBottles": "6",
+        "mDiscount": 15
       },
       {
-        "name": "Gold",
-        "averagePrice": 220,
-        "numberOfBottles": "12",
-        "discount": 15
+        "mName": "Gold",
+        "mAveragePrice": 220,
+        "mNumberOfBottles": "12",
+        "mDiscount": 15
       },
       {
-        "name": "Platinum",
-        "averagePrice": 460,
-        "numberOfBottles": "24",
-        "discount": 20
+        "mName": "PmLatitudeinum",
+        "mAveragePrice": 460,
+        "mNumberOfBottles": "24",
+        "mDiscount": 20
       }
     ]
   },
   {
-    "name": "Page Cellars",
-    "lat": 47.7672366,
-    "lon": -122.149709,
-    "wines": [
+    "mWinerySK": 4,
+    "mName": "Just Wine.",
+    "mLatitude": 47.7672366,
+    "mLongitude": -122.149709,
+    "mMilesAway": 1,
+    "mVisited": false,
+    "mFavorited": false,
+    "mWines": [
       {
-        "name": "Lick my lips",
-        "year": 2015,
-        "grape": "Syrah",
-        "price": 42
+        "mName": "Lick my lips",
+        "mYear": 2015,
+        "mGrape": "Syrah",
+        "mPrice": 42
       },
       {
-        "name": "Carbernet Franc",
-        "year": 2013,
-        "grape": "Cabernet Franc",
-        "price": 60
+        "mName": "Carbernet Franc",
+        "mYear": 2013,
+        "mGrape": "Cabernet Franc",
+        "mPrice": 60
       },
       {
-        "name": "Preface",
-        "year": 2012,
-        "grape": "Cabernet Sauvignon",
-        "price": 44
+        "mName": "Preface",
+        "mYear": 2012,
+        "mGrape": "Cabernet Sauvignon",
+        "mPrice": 44
       }
     ],
-    "about": "We love wine!",
-    "annualReleases": 3,
-    "membershipFee": 0,
-    "freeTasting": "Endless",
-    "memberships": [
+    "mAbout": "We love wine!",
+    "mAnnualReleases": 3,
+    "mMembershipFee": 0,
+    "mFreeTastings": "Endless",
+    "mMemberships": [
       {
-        "name": "Friends and Family",
-        "averagePrice": 180,
-        "numberOfBottles": "4",
-        "discount": 20
+        "mName": "Friends and Family",
+        "mAveragePrice": 180,
+        "mNumberOfBottles": "4",
+        "mDiscount": 20
       }
     ]
   }

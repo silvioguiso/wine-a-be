@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <com.google.android.material.card.MaterialCardView
+    android:id="@+id/wineCard"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
@@ -48,7 +49,8 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintRight_toLeftOf="@id/image_visited"
             android:src="@mipmap/favorite_check"
-            android:tint="@color/primaryLightColor"/>
+            android:tint="@color/primaryLightColor"
+            android:visibility="invisible"/>
 
         <ImageView
             android:id="@+id/image_visited"
@@ -58,7 +60,8 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            android:src="@mipmap/visited"/>
+            android:src="@mipmap/visited"
+            android:visibility="invisible"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

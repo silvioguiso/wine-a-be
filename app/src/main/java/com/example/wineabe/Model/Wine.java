@@ -13,4 +13,9 @@ public class Wine {
         mYear = year;
         mPrice = price;
     }
+
+    @Override
+    public String toString(){
+        return mName + "\nYear: " + mYear + "\nGrape: " + mGrape + "\nPrice: " + mPrice + "\n\n";
+    }
 }

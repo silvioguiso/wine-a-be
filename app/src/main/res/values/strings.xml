@@ -8,4 +8,8 @@
     <string name="favorites">Show Favorites</string>
     <string name="winery_name">Winery Name</string>
     <string name="miles_away">x miles away</string>
+    <string name="directions">Directions</string>
+    <string name="about">About</string>
+    <string name="wines">Wine Collection</string>
+    <string name="membership_levels">Membership Levels</string>
 </resources>
