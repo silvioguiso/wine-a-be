@@ -29,9 +29,14 @@ public class JSONSerializer {
         try {
             Reader reader = new BufferedReader(new InputStreamReader(inputStream, "UTF-8"));
             int pointer;
+
             while ((pointer = reader.read(buffer)) != -1) {
                 writer.write(buffer, 0, pointer);
             }
+
+            writer.close();
+            reader.close();
+
         } catch (IOException exception) {
             Log.e(typeObj.getClass().getSimpleName(), "Error writing/reading from the JSON file.", exception);
         } finally {
@@ -40,6 +45,7 @@ public class JSONSerializer {
             } catch (IOException exception) {
                 Log.e(typeObj.getClass().getSimpleName(), "Error closing the input stream.", exception);
             }
+
         }
 
         String jsonAsString = writer.toString();

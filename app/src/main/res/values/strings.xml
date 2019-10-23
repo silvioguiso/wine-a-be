@@ -12,4 +12,7 @@
     <string name="about">About</string>
     <string name="wines">Wine Collection</string>
     <string name="membership_levels">Membership Levels</string>
+    <string name="wine_bottle">Wine Bottle</string>
+    <string name="price">Price</string>
+    <string name="my_memberships">My Memberships</string>
 </resources>

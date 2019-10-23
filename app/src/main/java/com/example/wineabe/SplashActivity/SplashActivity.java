@@ -7,6 +7,7 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Handler;
 
+import com.example.wineabe.Data.MembershipData;
 import com.example.wineabe.Data.WineryData;
 import com.example.wineabe.MainActivity.MainActivity;
 import com.example.wineabe.R;
@@ -27,6 +28,13 @@ public class SplashActivity extends AppCompatActivity {
             @Override
             public void run() {
                 WineryData.initWineEntryList(getResources());
+            }
+        });
+
+        AsyncTask.execute(new Runnable() {
+            @Override
+            public void run() {
+                MembershipData.initMembershipInfo(getResources());
             }
         });
 

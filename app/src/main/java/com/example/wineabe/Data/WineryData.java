@@ -25,21 +25,6 @@ public class WineryData{
         mWineries = (ArrayList<Winery>) JSONSerializer.parseEntries(resources, Winery.class, type, R.raw.wineries);
     }
 
-    public static List<Winery> getWineries(){
-        return mWineries;
-    }
-
-    public static List<Winery> getMyMembershipInfo(){
-
-        if(mWineries == null){
-            return null;
-        }
-
-        return mWineries.stream()
-                .filter(c -> c.getName().equals("Lobo Hills") || c.getName().equals("Damsel Cellars"))
-                .collect(Collectors.toList());
-    }
-
     public static int getWineryCount(){
         return mWineries.size();
     }

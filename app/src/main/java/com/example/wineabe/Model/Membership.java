@@ -7,15 +7,36 @@ public class Membership {
     private int mNumberOfBottles;
     private double mDiscount;
 
-    public Membership(String name, double avgPrice, int numberOfBottles, double discount){
-        mName = name;
-        mAveragePrice = avgPrice;
-        mNumberOfBottles = numberOfBottles;
-        mDiscount = discount;
-    }
+    private int mAnnualReleases;
+    private int mMembershipSK;
+    private String mWineryName;
 
     @Override
     public String toString(){
         return mName + "\nBottles: " + mNumberOfBottles + "\nDiscount: " + mDiscount + "\n\n";
+    }
+
+    public int getMembershipSK(){
+        return mMembershipSK;
+    }
+
+    public String getWineryNameAndMembershipLevel(){
+        return mWineryName + " - " + mName;
+    }
+
+    public String getAveragePrice(){
+        return "~ " + mAveragePrice;
+    }
+
+    public String getNumberOfBottles(){
+        return mNumberOfBottles + " / year";
+    }
+
+    public String getDiscount(){
+        return "Discount: " + mDiscount + " %";
+    }
+
+    public String getAnnualReleases(){
+        return "Annual Releases: " + mAnnualReleases;
     }
 }

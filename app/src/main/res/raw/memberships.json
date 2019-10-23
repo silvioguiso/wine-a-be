@@ -1,0 +1,20 @@
+[
+  {
+    "mMembershipSK": 1,
+    "mWineryName": "The Drunken Grape",
+    "mName": "Silver",
+    "mNumberOfBottles": 6,
+    "mAveragePrice": 200,
+    "mDiscount": 15,
+    "mAnnualReleases": 3
+  },
+  {
+    "mMembershipSK": 2,
+    "mWineryName": "Rose Hills",
+    "mName": "Gold",
+    "mNumberOfBottles": 12,
+    "mAveragePrice": 300,
+    "mDiscount": 20,
+    "mAnnualReleases": 4
+  }
+]

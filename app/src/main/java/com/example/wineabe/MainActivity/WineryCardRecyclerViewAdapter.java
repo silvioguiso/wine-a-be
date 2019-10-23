@@ -14,8 +14,6 @@ import com.example.wineabe.WineryDetailsActivity.WineryDetailsActivity;
 
 public class WineryCardRecyclerViewAdapter extends RecyclerView.Adapter<WineryCardViewHolder> {
 
-    private int mWinerySK;
-
     @NonNull
     @Override
     public WineryCardViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
